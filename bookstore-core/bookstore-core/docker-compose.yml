@@ -1,0 +1,9 @@
+﻿version: '3'
+
+services:
+  book:
+    build: .
+    container_name: store-test
+    restart: always
+    ports:
+      - "8080:80"
