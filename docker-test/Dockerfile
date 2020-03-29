@@ -4,4 +4,4 @@ EXPOSE 80
 
 COPY bin/Debug/netcoreapp3.1/publish/  app/
 
-ENTRYPOINT ["dotnet", "app/bookstore-core.dll"]
+ENTRYPOINT ["dotnet", "app/docker-test.dll"]
